@@ -67,7 +67,7 @@ void sendWhite(uint16_t power)
   // have the extra 5-bit brightness register.  You will notice
   // that roughly the first third of the LED strip turns off
   // because the brightness8Bit equals zero.
-  //brightness = 31;
+  //uint8_t brightness = 31;
 
   // Set brightness8Bit to be power divided by brightness5Bit,
   // rounded to the nearest whole number.
